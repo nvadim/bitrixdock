@@ -77,7 +77,7 @@ services:
             - ./logs/memcached:/var/log/memcached
             - ./data/mysql:/var/lib/mysql
             - ./data/memcached:/var/lib/memcached
-            - /var/www/bitrix:/var/www/bitrix
+            - /home/nvadim/sites/shmel:/var/www/bitrix
             - /etc/localtime:/etc/localtime/:ro
         networks:
             - bitrix
